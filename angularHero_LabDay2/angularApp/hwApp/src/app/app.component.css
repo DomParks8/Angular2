@@ -1,0 +1,17 @@
+* { 
+    background-color: navy;
+    color: white;
+
+}
+
+ul {
+    height: 60px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,14 @@
+<h2> Here a list of people.</h2>
+
+<!-- <app-person></app-person> -->
+
+<h3>People</h3>
+<ul *ngFor="let person of dataList">
+    <li>Name: {{person.fullName}}</li>
+    <li>Age: {{person.age}}</li>
+</ul>
+
+
+
+
+<router-outlet name ="comp2" ></router-outlet>
